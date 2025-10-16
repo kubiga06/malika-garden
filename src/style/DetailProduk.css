@@ -1,0 +1,60 @@
+.container-detail-produk {
+  padding-top: 130px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+  border-radius: 40px;
+}
+.container-detail-produk .detail-img {
+  border: 5px solid #fcffc8;
+  width: 510px;
+  height: 510px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.info-detail-produk {
+  text-align: center;
+  background-color: #076653;
+  color: #ffffff;
+  padding-left: 30px;
+  font-weight: bold;
+  border-radius: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  height: 510px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.info-detail-produk .kategori-produk {
+  color: #fcffc8;
+}
+.info-detail-produk .deskripsi-produk {
+  text-align: center;
+  font-weight: normal;
+  font-size: 16px;
+  color: #dddddd;
+}
+.harga-title {
+  color: #ff6f00;
+}
+.deskripsi-produk {
+  text-align: justify;
+  margin-right: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #f0f0f0;
+}
+.nama-produk {
+  padding-top: 40px;
+}
+.btn-kembali{
+  background-color: #617873;
+}

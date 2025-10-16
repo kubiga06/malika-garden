@@ -1,0 +1,163 @@
+.container-produk {
+  padding: 40px 20px;
+}
+
+/* kasih sedikit padding antar kolom */
+.col-produk {
+  text-align: center;
+}
+
+/* ubah width tetap jadi fleksibel */
+.container-produk .card-produk {
+  border: none;
+  width: 100%; /* fleksibel, biar ngikut col */
+  max-width: 250px; /* tapi gak lebih lebar dari ini */
+  height: 300px;
+  background-color: #076653;
+  border-radius: 10%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: auto; /* tetap tengah */
+}
+
+/* efek hover */
+.card-produk:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+
+/* gambar di dalam card */
+.card-produk-img {
+  padding-top: 5px;
+}
+
+.card-produk-img img {
+  height: 200px;
+  width: 100%;
+  max-width: 240px;
+  object-fit: cover;
+  border: 3px solid #fcffc8;
+  border-radius: 10%;
+}
+
+/* teks */
+.card-title-produk .card-title {
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.card-title-produk .card-text {
+  font-size: 1rem;
+  margin: 0;
+  color: #ff6f00 !important;
+  font-weight: bold;
+}
+
+/* ini untuk spacing di tablet */
+@media (max-width: 768px) {
+  .col-produk {
+    padding: 5px !important;
+  }
+  /* ubah width tetap jadi fleksibel */
+  .container-produk .card-produk {
+    border: none;
+    width: 100%; /* fleksibel, biar ngikut col */
+    max-width: 250px; /* tapi gak lebih lebar dari ini */
+    height: 270px;
+    background-color: #076653;
+    border-radius: 10%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: auto; /* tetap tengah */
+  }
+
+  /* efek hover */
+  .card-produk:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+  }
+
+  /* gambar di dalam card */
+  .card-produk-img {
+    padding-top: 10px;
+  }
+
+  .card-produk-img img {
+    height: 150px;
+    width: 150px;
+    max-width: 230px;
+    object-fit: cover;
+    border: 3px solid #fcffc8;
+    border-radius: 10%;
+  }
+
+  /* teks */
+  .card-title-produk .card-title {
+    font-weight: 700;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: white;
+  }
+
+  .card-title-produk .card-text {
+    font-size: 0.9rem;
+    margin: 0;
+    color: #ff6f00 !important;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 426px) {
+  .col-produk {
+    padding: 5px !important;
+  }
+  /* ubah width tetap jadi fleksibel */
+  .container-produk .card-produk {
+    border: none;
+    width: 100%; /* fleksibel, biar ngikut col */
+    max-width: 200px; /* tapi gak lebih lebar dari ini */
+    height: 250px;
+    background-color: #076653;
+    border-radius: 10%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: auto; /* tetap tengah */
+  }
+
+  /* efek hover */
+  .card-produk:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+  }
+
+  /* gambar di dalam card */
+  .card-produk-img {
+    padding-top: 10px;
+  }
+
+  .card-produk-img img {
+    height: 150px;
+    width: 180px;
+    max-width: 230px;
+    object-fit: cover;
+    border: 3px solid #fcffc8;
+    border-radius: 10%;
+  }
+
+  /* teks */
+  .card-title-produk .card-title {
+    font-weight: 700;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: white;
+  }
+
+  .card-title-produk .card-text {
+    font-size: 0.9rem;
+    margin: 0;
+    color: #ff6f00 !important;
+    font-weight: bold;
+  }
+}

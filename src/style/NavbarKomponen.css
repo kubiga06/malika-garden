@@ -1,0 +1,17 @@
+.beranda-item:hover,
+.tentang-kami-item:hover,
+.produk-item:hover,
+.kontak-item:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.beranda-item:active,
+.tentang-kami-item:active,
+.produk-item:active,
+.kontak-item:active {
+  text-decoration: underline;
+  cursor: pointer;
+  background-color: rgba(25, 135, 84, 0.1) !important;
+  border-radius: 5px;
+  padding: 5px;
+}

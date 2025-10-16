@@ -1,0 +1,209 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "nama": "Bibit buah"
+    },
+    {
+      "id": 2,
+      "nama": "Tanaman hias"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "kode": "G-01",
+      "nama": "Bibit Kopi Arabika",
+      "harga": 30000,
+      "deskripsi": "Kopi arabika merupakan biji kopi terbesar produksinya di seluruh dunia, dan harga kopi arabika ditentukan berdasarkan kualitasnya. Kopi ini memiliki rasa dan aroma yang begitu kompleks. Arabika pun merupakan biji kopi yang banyak peminatnya.",
+      "is_ready": true,
+      "gambar": "bibit-arabika.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Bibit buah"
+      }
+    },
+    {
+      "id": 2,
+      "kode": "G-02",
+      "nama": "Bibit Buah Nangka Orange",
+      "harga": 100000,
+      "deskripsi": "Bibit buah Nangka orens, nangka jenis ini memiliki warna orange, daging buah yg tebal & rasa yg manis, bibit okulasi tersedia dg estimasi 3-4 tahun sudah berbuah tergantung perawatan",
+      "is_ready": true,
+      "gambar": "bibit-buah-nangka-orange.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Bibit buah"
+      }
+    },
+    {
+      "id": 3,
+      "kode": "G-03",
+      "nama": "Bunga Rainlily",
+      "harga": 10000,
+      "deskripsi": "Bunga Rainlily biasa disebut dengan bunga lily hujan, ada jg yg menyebutnya bunga bawang karena memiliki umbi & daun seperti bawang merah. Memiliki bunga yg bervarisi hasil silangan dg rawatan yg mudah, biasa rajin berbunga sehabis musim penghujan",
+      "is_ready": true,
+      "gambar": "bunga-rainlily.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Tanaman hias"
+      }
+    },
+    {
+      "id": 4,
+      "kode": "G-04",
+      "nama": "Bibit Kelengkeng",
+      "harga": 18000,
+      "deskripsi": "Bibit kelengkeng, tersedia aneka jenis bibit kelengkeng seperti kelengkeng merah, kelengkeng matalada, kelengkeng kristalin, kelengkeng aroma durian, kelengkeng pingpong, kelengkeng diamond rivers & kelengkeng new kristal",
+      "is_ready": true,
+      "gambar": "bibit-kelengkeng.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Bibit buah"
+      }
+    },
+    {
+      "id": 5,
+      "kode": "G-05",
+      "nama": "Bibit Buah Alpukat",
+      "harga": 85000,
+      "deskripsi": "Bibit buah alpukat, tersedia berbagai varian jenis alpukat seperti alpukat mentega, markus, miki, aligator, red vietnam, siger, hass, pluwang & yellow vietnam. Bibit okulasi cepat berbuah",
+      "is_ready": true,
+      "gambar": "bibit-buah-alpukat.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Bibit buah"
+      }
+    },
+    {
+      "id": 6,
+      "kode": "G-06",
+      "nama": "Bunga Mossrose",
+      "harga": 50000,
+      "deskripsi": "Bunga mossrose/portulaca biasa disebut bunga jam 9, karna mekar di pagi hari. Memiliki warna beragam & sangat disukai lebah. Bibit tersedia berupa stek batang dg beragam warna kurang lebih 40 jenis warna yg berbeda",
+      "is_ready": true,
+      "gambar": "bunga-mossrose.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Tanaman hias"
+      }
+    },
+    {
+      "id": 7,
+      "kode": "G-07",
+      "nama": "Cemara Pentris",
+      "harga": 150000,
+      "deskripsi": "Cemara pentris, biasa disebut cemara natal, bunga taman yg mudah perawatannya",
+      "is_ready": true,
+      "gambar": "cemara-pentris.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Tanaman hias"
+      }
+    },
+    {
+      "id": 8,
+      "kode": "G-08",
+      "nama": "Bunga Episcia",
+      "harga": 25000,
+      "deskripsi": "Bunga episcia, memiliki corak daun yg unik hasil silangan & warna bunga yg cantik, tumbuh menjuntai sangat cocok untuk bunga gantung",
+      "is_ready": true,
+      "gambar": "bunga-episcia.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Tanaman hias"
+      }
+    },
+    {
+      "id": 9,
+      "kode": "G-09",
+      "nama": "Bibit Jambu Air",
+      "harga": 50000,
+      "deskripsi": "Aneka jenis bibit jambu air, tersedia jenis jambu air madudeli, black kingkong, kiojok, citra merah, dalhari & jambu kancing merah.\nBibit berupa okulasi & cangkok, berbuah lebih cepat, bahkan bibit ada yg sudah berbunga & berbuah",
+      "is_ready": true,
+      "gambar": "bibit-jambu-air.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Bibit buah"
+      }
+    },
+    {
+      "id": 10,
+      "kode": "G-010",
+      "nama": "Bibit Buah Mangga",
+      "harga": 85000,
+      "deskripsi": "Bibit buah mangga, tersedia jenis mangga golek, irwin, kiojay, mangga madu, mahatir, congkanan, arum manis & mangga apel.",
+      "is_ready": true,
+      "gambar": "bibit-buah-mangga.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Bibit buah"
+      }
+    },
+    {
+      "id": 11,
+      "kode": "G-011",
+      "nama": "Kaktus",
+      "harga": 10000,
+      "deskripsi": "Tanaman ini memiliki ketahanan yg baik terhadap cuaca sehingga mudah di rawat. Penempatan tanaman bisa dari outdoor sampai semi indoor",
+      "is_ready": true,
+      "gambar": "Kaktus.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Tanaman hias"
+      }
+    },
+    {
+      "id": 12,
+      "kode": "G-012",
+      "nama": "Bunga Calathea",
+      "harga": 35000,
+      "deskripsi": "Bunga calathea, bunga jenis ini memiliki keindahan pada motif &  warna daunnya. Untuk perawatan juga mudah, penempatan mulai dari semi indoor sampai indoor, tidak menyukai sinar matahari berlebih",
+      "is_ready": true,
+      "gambar": "Bunga-calathea.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Tanaman hias"
+      }
+    },
+    {
+      "id": 13,
+      "kode": "G-013",
+      "nama": "Bunga Philodendron",
+      "harga": 35000,
+      "deskripsi": "Tanaman hias tropis dengan daun lebar berwarna hijau mengkilap yang memberikan kesan alami dan menenangkan. Cocok untuk dekorasi dalam maupun luar ruangan, Philodendron dari Malika Garden tumbuh subur dan siap mempercantik sudut rumah Anda.",
+      "is_ready": true,
+      "gambar": "Bunga-philodendron.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Tanaman hias"
+      }
+    },
+    {
+      "id": 14,
+      "kode": "G-014",
+      "nama": "Bunga Anggrek Tanah Ungu",
+      "harga": 35000,
+      "deskripsi": "Bunga Anggrek, Dengan bunga yang indah dan warna yang memikat, Anggrek Tanah menjadi pilihan sempurna bagi pecinta keindahan alami. Perawatannya mudah dan tampilannya elegan, menjadikannya daya tarik utama di taman Anda.",
+      "is_ready": true,
+      "gambar": "Bunga-anggrek.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Tanaman hias"
+      }
+    },
+    {
+      "id": 15,
+      "kode": "G-015",
+      "nama": "Bunga Teratai",
+      "harga": 35000,
+      "deskripsi": "Bunga Teratai, menghadirkan suasana damai dan sejuk di kolam atau taman air. Bunga yang mekar di atas air menciptakan pemandangan menenangkan, menambah sentuhan alami di area outdoor Anda.",
+      "is_ready": true,
+      "gambar": "Bunga-teratai.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Tanaman hias"
+      }
+    }
+  ]
+}

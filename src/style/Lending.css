@@ -1,0 +1,60 @@
+.container-title-cover .title-ecomerance {
+  color: rgb(167, 110, 3);
+}
+.container-title-cover .title-heding {
+  color: #ffffff;
+}
+.container-title-cover .title-deskripsi {
+  color: whitesmoke;
+  text-shadow: rgba(0, 0, 0, 0.653) 0.1em 0.1em 0.2em;
+}
+.container-title-cover .btn-cover {
+  background-color: #076653;
+  color: #ffffff;
+  border: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+.container-title-cover .btn-cover:hover {
+  background-color: #ffffff;
+  color: #076653;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+@media (max-width: 769px) {
+  .container-title-cover .title-ecomerance {
+    font-size: 10px;
+  }
+  .container-title-cover .title-heding {
+    font-size: 30px;
+  }
+  .container-title-cover .title-deskripsi {
+    font-size: 15px;
+    text-shadow: rgba(0, 0, 0, 0.653) 0.1em 0.1em 0.2em;
+  }
+  .container-title-cover .btn-cover {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}
+@media (max-width: 426px) {
+  .container-title-cover {
+    padding: 0 10px;
+    text-align: center;
+  }
+  .container-title-cover .title-ecomerance {
+    font-size: 8px;
+    text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+  }
+  .container-title-cover .title-heding {
+    font-size: 30px;
+  }
+  .container-title-cover .title-deskripsi {
+    font-size: 12px;
+    text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+  }
+  .container-title-cover .btn-cover {
+    font-size: 12px;
+    padding: 8px 16px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+  }
+}

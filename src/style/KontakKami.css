@@ -1,0 +1,84 @@
+.kontak-container {
+  padding-top: 120px;
+  margin-bottom: 120px;
+}
+.map-container {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #fcffc8;
+  height: 400px;
+  width: 100%;
+  border: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+.map-container iframe {
+  border: none;
+  width: 100%;
+  height: 380px;
+  border-radius: 10px;
+}
+.kontak-card a {
+  color: #a8e6cf;
+  text-decoration: none;
+  margin: 0 4px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  &:hover {
+    color: #4050ff;
+  }
+
+  .kontak-card {
+    background-color: #fcffc8;
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    &:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+    }
+    h5 {
+      color: #076653;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+    p {
+      color: #333333;
+      margin: 0;
+    }
+    .kontak-card {
+      margin-bottom: 10px;
+      background-color: #fcffc8;
+      border: none;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      border-radius: 10px;
+      padding: 15px;
+      text-align: center;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .kontak-container {
+    margin-bottom: 80px;
+  }
+  .map-container {
+    height: 300px;
+  }
+  .map-container iframe {
+    height: 280px;
+  }
+  .kontak-card {
+    h5 {
+      font-size: 1rem;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 0.8rem;
+    }
+  }
+}

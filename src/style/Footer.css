@@ -1,0 +1,101 @@
+.footer {
+  background-color: #076653;
+  color: white;
+}
+
+.footer-logo {
+  height: 195px;
+  width: 300px;
+  padding-left: 100px;
+}
+.container-footer {
+  padding-top: 15px;
+}
+.alamat-footer{
+  text-align: center;
+}
+.media-sosial a {
+  color: white;
+  font-size: 1.8rem;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.media-sosial .facebook:hover {
+  color: #1a79ff;
+}
+.media-sosial .whatsapp:hover {
+  color: #08f300;
+}
+.developer a {
+  color: #a8e6cf;
+  text-decoration: none;
+  margin: 0 4px;
+  font-size: 0.9rem;
+}
+
+.developer a:hover {
+  text-decoration: underline;
+}
+.navigasi-footer p {
+  color: #ffffff;
+  margin: 0 4px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.navigasi-footer a {
+  color: #a8e6cf;
+  text-decoration: none;
+  margin: 0 4px;
+  gap: 10px;
+}
+
+.navigasi-footer a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 768px) {
+  .footer-logo {
+    height: 120px;
+    width: 120px;
+    padding-left: 0;
+    margin-bottom: 10px;
+    margin: auto;
+  }
+  .container-footer {
+    text-align: center;
+  }
+  .navigasi-footer {
+    margin-bottom: 10px;
+  }
+  .navigasi-footer p {
+    margin-top: 15px;
+    font-size: 15px;
+  }
+  .navigasi-footer a {
+    font-size: 10px;
+  }
+  .alamat-footer{
+    font-size: 10px;
+  }
+  .alamat-footer h5{ 
+    font-size: 20px;
+  }
+   .alamat-footer .media-sosial{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+   }
+   .developer a{
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   }
+   .developer p{
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   }
+}

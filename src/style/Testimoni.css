@@ -1,0 +1,37 @@
+.container-testimoni {
+  background-color: #ffffff;
+  text-align: center; /* untuk judul */
+  padding: 40px 20px;
+}
+.container-testimoni h3 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #076653;
+}
+.container-testimoni p {
+  color: #076653;
+  margin-bottom: 30px;
+}
+
+.container-testimoni .card-testimoni {
+  border: none;
+  height: 300px;
+  width: 300px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(4, 58, 16, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 0 auto;
+}
+.card-testimoni:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+.img-testimoni {
+  padding-top: 5px;
+}
+.img-testimoni img {
+  height: 240px;
+  width: 280px;
+  object-fit: cover;
+
+}

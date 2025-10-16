@@ -1,0 +1,58 @@
+.navbar-produk{
+  background-color: #bcecd5 !important;
+}
+
+.navbar-produk .container-nav-produk {
+  background-color: #0c8b71;
+  padding-top: 90px;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* Ganti margin kiri-kanan dengan auto dan atur lebar maksimal */
+  margin: 0 auto;
+  max-width: 1200px; /* Atur sesuai kebutuhan */
+  width: 50%; /* Responsif, bisa diubah sesuai desain */
+  border-radius: 10px;
+}
+.container-nav-produk .title-nav-produk {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+.nav-produk {
+  margin-left: 50%;
+  font-weight: bold;
+  font-size: 1.1rem;
+  border-radius: 10px;
+}
+
+.nav-produk .nav-produk-item {
+  color: #0b7762!important;
+  font-weight: 500;
+  font-size: 1.05rem;
+  background: transparent;
+  transition: background 0.2s, color 0.2s;
+}
+.nav-produk-item:hover,
+.nav-produk-item.active {
+  background-color: #198754 !important;
+  color: #fff !important;
+}
+/* Responsif tablet */
+@media (max-width: 991.98px) {
+  .navbar-produk .container-nav-produk {
+    width: 80%;
+    padding-top: 90px;
+    padding-bottom: 8px;
+  }
+}
+/* Responsif mobile */
+@media (max-width: 575.98px) {
+  .navbar-produk .container-nav-produk {
+    width: 98%;
+    padding-top: 90px;
+    padding-bottom: 6px;
+    border-radius: 7px;
+  }
+}

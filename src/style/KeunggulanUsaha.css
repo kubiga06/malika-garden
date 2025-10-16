@@ -1,0 +1,56 @@
+.content-body {
+  background: #076653;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+/* Ukuran teks */
+.content-body h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.content-body p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin: 0 auto;
+  max-width: 85%;
+}
+
+/* Ukuran ikon/gambar */
+.content-body img {
+  width: 70px;
+  height: 70px;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+.content-content p{
+  padding-bottom: 20px;
+}
+@media (max-width: 769px) {
+  .content-body {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .content-body h3 {
+    font-size: 1.1rem;
+  }
+  .content-body img {
+    width: 60px;
+    height: 60px;
+  }
+}
+@media (max-width: 426px) {
+  .content-body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .content-body h3 {
+    font-size: 1rem;
+  }
+  .content-body img {
+    width: 50px;
+    height: 50px;
+  }
+}
